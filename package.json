@@ -1,0 +1,21 @@
+{
+  "name": "aynvideoapp",
+  "version": "0.0.1",
+  "description": "\"Video app\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "watch": "watchify ./public/js/main.js -o ./public/js/bundle.js"
+  },
+  "author": "ayn",
+  "license": "ISC",
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-peer": "^9.6.2",
+    "socket.io": "^2.3.0"
+  }
+}
